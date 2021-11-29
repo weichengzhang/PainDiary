@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "746497125143",
+    "firebase_url": "https://mypaindiary-b6297-default-rtdb.firebaseio.com",
+    "project_id": "mypaindiary-b6297",
+    "storage_bucket": "mypaindiary-b6297.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746497125143:android:98b46987a43623564de552",
+        "android_client_info": {
+          "package_name": "com.example.mobilepaindiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746497125143-t6jfo7un39so7vbk7opb2bijsgcemu9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXZm0RYpVR27Pv0zNAPzLWYUHGktICYZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746497125143-t6jfo7un39so7vbk7opb2bijsgcemu9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

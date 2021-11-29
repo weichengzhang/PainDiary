@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    tools:context=".ui.home.fragment.ViewTask5Fragment">
+
+    <Button
+        android:id="@+id/btn_location_pie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pain location pie chart"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@id/btn_steps_pie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_steps_pie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Steps taken pie chart"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@id/btn_pain_line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_location_pie" />
+
+
+    <Button
+        android:id="@+id/btn_pain_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pain and Weather Line chart"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_steps_pie" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

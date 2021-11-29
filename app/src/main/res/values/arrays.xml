@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item>kotlin</item>
+        <item>java </item>
+        <item>php</item>
+        <item>xml</item>
+        <item>html</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>Back</item>
+        <item>Neck</item>
+        <item>Head</item>
+        <item>Knee</item>
+        <item>Hips</item>
+        <item>Abdomen</item>
+        <item>Elbow</item>
+        <item>Shoulder</item>
+        <item>Tibia</item>
+        <item>Chin</item>
+        <item>Face</item>
+
+    </string-array>
+
+    <string-array name="weather">
+        <item>Temperature</item>
+        <item>Humidity</item>
+        <item>Pressure</item>
+    </string-array>
+
+    <string-array name="mood">
+        <item>☹️ Very low</item>
+        <item>🙁 Low</item>
+        <item>😐 Average</item>
+        <item>🙂 Good</item>
+        <item>😊 Very good</item>
+    </string-array>
+
+
+</resources>

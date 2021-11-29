@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_weather_fragment">
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/nav_home_fragment"-->
+    <!--        android:name="com.example.mobilepaindiary.ui.home.fragment.HomeFragment"-->
+    <!--        android:label="@string/menu_home_fragment"-->
+    <!--        tools:layout="@layout/home_fragment" >-->
+    <!--    </fragment>-->
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/nav_add_fragment"-->
+    <!--        android:name="com.example.mobilepaindiary.ui.home.fragment.AddFragment"-->
+    <!--        android:label="@string/menu_add_fragment"-->
+    <!--        tools:layout="@layout/add_fragment" />-->
+    <!--    <fragment-->
+    <!--        android:id="@+id/nav_view_fragment"-->
+    <!--        android:name="com.example.mobilepaindiary.ui.home.fragment.ViewFragment"-->
+    <!--        android:label="@string/menu_view_fragment"-->
+    <!--        tools:layout="@layout/view_fragment" />-->
+    <!--    <activity-->
+    <!--        android:id="@+id/nav_map"-->
+    <!--        android:name="com.example.mobilepaindiary.ui.map.MapActivity"-->
+    <!--        android:label="@string/menu_map"-->
+    <!--        tools:layout="@layout/activity_map" />-->
+    <fragment
+        android:id="@+id/nav_home_fragment"
+        android:name="com.example.mobilepaindiary.ui.home.fragment.HomeTask4Fragment"
+        android:label="@string/menu_Daily_Record"
+        tools:layout="@layout/home_fragment" />
+    <fragment
+        android:id="@+id/nav_weather_fragment"
+        android:name="com.example.mobilepaindiary.ui.home.fragment.WeatherTask2Fragment"
+        android:label="@string/menu_Home_screen"
+        tools:layout="@layout/fragment_weather" />
+    <fragment
+        android:id="@+id/nav_add_fragment"
+        android:name="com.example.mobilepaindiary.ui.home.fragment.AddTask3Fragment"
+        android:label="@string/menu_Pain_Data_Entry"
+        tools:layout="@layout/add_fragment" />
+    <fragment
+        android:id="@+id/nav_view_fragment"
+        android:name="com.example.mobilepaindiary.ui.home.fragment.ViewTask5Fragment"
+        android:label="@string/menu_Report"
+        tools:layout="@layout/view_fragment" />
+    <activity
+        android:id="@+id/nav_map"
+        android:name="com.example.mobilepaindiary.ui.map.MapActivity"
+        android:label="@string/menu_map"
+        tools:layout="@layout/activity_map" />
+</navigation>
